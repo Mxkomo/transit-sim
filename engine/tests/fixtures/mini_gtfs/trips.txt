@@ -1,0 +1,7 @@
+route_id,service_id,trip_id,trip_headsign,direction_id,block_id,shape_id
+"01","WEEK","T1","Mairie",0,"0123","SH1"
+"01","WEEK","T1b","Mairie",0,"0123","SH1"
+"01","WEEK_CANCEL","T2","Mairie",0,"0124","SH2"
+"02","EXTRA","T3","Gare",1,"0200","SH3"
+"02","OLD","T4","Stade",0,"0300","SH4"
+"02","WEEKEND","T5","Dépôt",0,"0301","SH5"

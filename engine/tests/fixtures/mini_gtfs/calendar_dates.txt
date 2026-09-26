@@ -1,0 +1,4 @@
+service_id,date,exception_type
+"WEEK_CANCEL",20261006,2
+"EXTRA",20261006,1
+"EXTRA",20261007,2

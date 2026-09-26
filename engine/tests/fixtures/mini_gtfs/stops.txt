@@ -1,0 +1,9 @@
+stop_id,stop_name,stop_lat,stop_lon,location_type,parent_station
+"STA","Gare",49.1,-0.3,1,
+"007","Gare quai 1",49.1001,-0.3001,0,"STA"
+"008","Gare quai 2",49.1002,-0.3002,0,"STA"
+"STB","Mairie",49.2,-0.4,1,
+"B1","Mairie quai",49.2001,-0.4001,0,"STB"
+"STC","Stade",49.3,-0.5,1,
+"C1","Stade quai",49.3001,-0.5001,0,"STC"
+"D1","Dépôt",49.4,-0.6,0,

@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Données copiées depuis data/processed/ par scripts/sync-data.mjs
+public/data
