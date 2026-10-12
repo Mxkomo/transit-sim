@@ -30,3 +30,20 @@ def interpolate(x, x1, x2, y1, y2):
     if x == x2:
         return y2
     return y1 + (x - x1) * ((y2 - y1) / (x2 - x1))
+
+
+def cumulative_distances(lats, lons):
+    """
+    take two tabs of the same length as parameter with lats and longs and return a tabs
+    with the distance along the route the between each points and the first one
+    """
+    lats = np.asarray(lats)
+    lons = np.asarray(lons)
+
+    distances = haversine(lats[:-1], lons[:-1], lats[1:], lons[1:])
+
+    cumul = np.cumsum(distances)
+
+    return np.concatenate(([0], cumul))
+
+
